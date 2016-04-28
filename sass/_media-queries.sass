@@ -1,0 +1,167 @@
+/******************************************/
+/*=========     MEDIA-QUERIES    =========*/
+/******************************************/
+@media (min-width: 560px)
+	//version SM
+	.red-button
+		float: left
+		margin: 25px 5% 0
+		padding: 15px
+		width: 40%
+
+	.subtitle
+		font-size: 30px
+		+ p
+			font-size: 18px
+
+	.service-text
+		h2
+			font-size: 23px
+		p
+			font-size: 18px
+
+		
+
+	.project-list
+		margin: 30px 
+		figure
+			border: dotted 1px green
+			width: 40%
+			float: left
+			margin: 15px 25px
+		+clearfix
+
+	.testimonies
+		p
+			font-size: 22px
+			font-weight: 500
+		b
+			font-size: 22px
+
+
+
+	.call-to-action
+		max-height: 350px
+		h3
+			font-size: 30px
+			margin-top: 200px
+	
+	.social-links
+		margin: 150px 0 50px 
+		li
+			width: 18%
+			height: 120px
+
+
+
+@media (min-width: 800px)
+	//version MD
+	.logo
+		margin-left: 45%
+
+	#toggle
+		display: none
+		//oculta el checkbox
+		&:checked ~ nav
+			display: none
+
+	.toggle-button
+		display: none
+	
+	nav
+		position: relative
+		left: none
+		top: none
+		background-color: #fff
+		width: 100%
+		height: 50px
+		overflow: none
+		+ttion(500ms)
+		
+		li
+			color: #333
+			border-top: solid 2px #333
+			border-bottom: solid 1px #fff
+			position: none
+			float: right
+
+
+	.fa-close
+		display: none
+				
+
+	.services
+		article
+			width: 40%
+			float: left
+		+clearfix
+
+	.call-to-action
+		height: 200px
+		.social-links
+			margin: 150px 0 50px 
+			li
+				width: 12%
+				height: 120px
+
+
+@media (min-width: 1100px)
+	//version LG
+	.project-list
+		margin: 30px 
+		figure
+			border: dotted 1px green
+			width: 18%
+			float: left
+			margin: 15px 25px
+		+clearfix
+
+	.testimonies
+		article
+			float: left
+			width: 31%
+		+clearfix
+
+	#contact
+		.map
+			float: left
+			width: 50%
+			height: 625px	
+
+		form
+			display: inline-block
+			float: left
+			width: 50%
+		+clearfix
+	footer
+		border: solid 1px red
+		p
+			font-size: 18px
+				color: $main-color
+				font-style: normal
+		a
+			display: inline-block
+			font-size: 18px
+			margin: -10px 44% 20px
+			border: solid 1px red
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
